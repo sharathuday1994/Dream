@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backGroundGrey"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/emailid"
+        android:textColor="@color/textBlack"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/dialog_text_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/backgroundWhite"
+        android:id="@+id/login_emailid"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/dialog_text_email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/password"
+        android:textColor="@color/textBlack"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/login_emailid"
+        android:id="@+id/dialog_text_password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/backgroundWhite"
+        android:id="@+id/login_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/dialog_text_password"/>
+</RelativeLayout>
