@@ -116,7 +116,8 @@
                 android:layout_marginTop="4dp"
                 android:background="@color/backgroundGreyDark"
                 android:drawableLeft="@drawable/ic_vpn_key_black_36dp"
-                android:text="@string/register_submit"/>
+                android:text="@string/register_submit"
+                android:id="@+id/register_button"/>
 
         </LinearLayout>
 

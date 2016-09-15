@@ -5,45 +5,27 @@
     android:background="@color/backGroundGrey"
     android:padding="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="@string/emailid"
-        android:textColor="@color/textBlack"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:id="@+id/dialog_text_email"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:background="@color/backgroundWhite"
-        android:id="@+id/login_emailid"
-        android:inputType="textEmailAddress"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_below="@+id/dialog_text_email"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="@string/password"
-        android:textColor="@color/textBlack"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"
-        android:layout_below="@+id/login_emailid"
-        android:id="@+id/dialog_text_password"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:background="@color/backgroundWhite"
-        android:id="@+id/login_password"
-        android:inputType="textPassword"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_below="@+id/dialog_text_password"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signin_message">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textColor="@color/textBlack"
+                android:id="@+id/login_dialog_text"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/login_dialog_dismiss_button"
+                android:layout_below="@+id/login_dialog_text"
+                android:textColor="@color/textBlack"
+                android:layout_centerInParent="true"
+                android:text="@string/dismiss"/>
+        </RelativeLayout>
+
 </RelativeLayout>

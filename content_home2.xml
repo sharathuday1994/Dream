@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.nihalpradeep.carapp.HomeActivity"
-    tools:showIn="@layout/activity_home"
+    tools:showIn="@layout/activity_home2"
     android:background="@color/backGroundGrey">
 
     <LinearLayout
@@ -19,13 +19,13 @@
         android:orientation="vertical"
         android:layout_weight="1">
 
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:textSize="10pt"
-           android:textColor="@color/textBlack"
-           android:text="@string/trending"
-           android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="@color/textBlack"
+            android:text="@string/trending"
+            android:layout_marginTop="4dp"/>
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,36 +61,36 @@
             android:layout_marginBottom="4pt">
         </HorizontalScrollView>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textColor="@color/textBlack"
-        android:text="@string/popularnewcars"
-        android:layout_marginTop="4dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="@color/textBlack"
+            android:text="@string/popularnewcars"
+            android:layout_marginTop="4dp"/>
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4pt">
         </HorizontalScrollView>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textColor="@color/textBlack"
-        android:text="@string/popularusedcars"
-        android:layout_marginTop="4dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="@color/textBlack"
+            android:text="@string/popularusedcars"
+            android:layout_marginTop="4dp"/>
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4pt">
         </HorizontalScrollView>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textColor="@color/textBlack"
-        android:text="@string/popularcomparisons"
-        android:layout_marginTop="4dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="@color/textBlack"
+            android:text="@string/popularcomparisons"
+            android:layout_marginTop="4dp"/>
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
